@@ -57,7 +57,7 @@ export const TodoList = ({ status }) => {
 };
 ```
 
-Note that if you need to pass more data to the hook as argument, you can use an object or array structure. It will checked for shallow equality so you don't need to worry about invalidating the selector inputs.
+Note that if you need to pass more data to the hook as argument, you can use an object or array structure. It will be checked for shallow equality so you don't need to worry about invalidating the selector inputs.
 
 #### Stateless hooks/subscribers
 
