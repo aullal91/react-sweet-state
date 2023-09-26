@@ -27,7 +27,7 @@ const actions = {
 
 ### Generic (and private) actions
 
-Sometimes you might want to have generic actions that are called by other actions, but without exposing them publicly as part the API. That can be easily done using `dispatch`:
+Sometimes you might want to have generic actions that are called by other actions, but without exposing them publicly as part of the API. That can be easily done using `dispatch`:
 
 ```js
 const setLoading =
